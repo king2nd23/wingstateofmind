@@ -1,30 +1,83 @@
 
-h1{
-  color: white;
-}
+/* TOP MENU */
+
 #section-1{
   height: 747px;
-  background-color: red;
+  display: block;
+  background-color: #FEFFF8;
 }
+#section-1 .top-menu{
+  width: 100%;
+  display: inline-block;
+  padding-top: 1.5%;
+}
+#section-1 .top-menu .logo{
+  width:30%;
+  display: inline-block;
+  text-align: right;
+  padding-left: 2%;
+}
+#section-1 .top-menu .logo .wing-icon{
+  width:9%;
+  display: inline-block;
+  padding-right: 5%;
+}
+#section-1 .top-menu .logo .wings-tm{
+  width:90%;
+  display: inline-block;
+}
+#section-1 .top-menu .nav-menu-container{
+  width:60%;
+  display: inline-block;
+  text-align: center;
+}
+#section-1 .top-menu .nav-menu-container .nav-menu{
+  width:100%;
+  display: inline-block;
+}
+#section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(1){
+  /* width:20%; */
+  display: inline-block;
+  padding-left: 3%;
+}
+#section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(2){
+  /* width:20%; */
+  display: inline-block;
+  padding-left: 3%;
+}
+#section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(3){
+  /* width:20%; */
+  display: inline-block;
+  padding-left: 3%;
+}
+#section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(4){
+  /* width:30%; */
+  display: inline-block;
+  padding-left: 3%;
+}
+
+
+
+
 #section-2{
   height: 747px;
-  background-color: green;
+  background-color: #D05A00;
 }
 #section-3{
   height: 747px;
-  background-color: purple;
+  background-color: #F5E6CC;
 }
 #section-4{
   height: 747px;
-  background-color: orange;
+  background-color: #272727;
 }
 #section-5{
   height: 747px;
-  background-color: brown;
+  background-color: #ECECEC;
 }
 #section-6{
   height: 747px;
-  background-color: tan;
+  background-color: #FEFFF8;
 }
 .footer{
 height: 100px;
