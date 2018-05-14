@@ -1,6 +1,8 @@
 
 /* TOP MENU */
-
+h1{
+  margin:0;
+}
 #section-1{
   height: 747px;
   display: block;
@@ -9,12 +11,12 @@
 #section-1 .top-menu{
   width: 100%;
   display: inline-block;
-  padding-top: 1.5%;
+  text-align: center;
 }
 #section-1 .top-menu .logo{
-  width:30%;
+  width:37%;
   display: inline-block;
-  text-align: right;
+  text-align: center;
   padding-left: 2%;
 }
 #section-1 .top-menu .logo .wing-icon{
@@ -25,6 +27,20 @@
 #section-1 .top-menu .logo .wings-tm{
   width:90%;
   display: inline-block;
+  margin:0;
+}
+#section-1 .top-menu .logo .wings-tm img{
+  display: inline-block;
+  width:70px;
+  height:70px;
+  position: relative;
+  top: 14px;
+  left: 8px;
+  vertical-align: bottom;
+}
+#section-1 .top-menu .logo .wings-tm .tm{
+  display: inline-block;
+  font-size: 14px;
 }
 #section-1 .top-menu .nav-menu-container{
   width:60%;
@@ -38,26 +54,50 @@
 #section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(1){
   /* width:20%; */
   display: inline-block;
-  padding-left: 3%;
+  padding-left: 4%;
 }
 #section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(2){
   /* width:20%; */
   display: inline-block;
-  padding-left: 3%;
+  padding-left: 4%;
 }
 #section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(3){
   /* width:20%; */
   display: inline-block;
-  padding-left: 3%;
+  padding-left: 4%;
+  padding-right: 2%;
 }
 #section-1 .top-menu .nav-menu-container .nav-menu li:nth-child(4){
   /* width:30%; */
   display: inline-block;
-  padding-left: 3%;
+  padding: 1%;
+  border-radius: 121px 121px 121px 121px;
+  -moz-border-radius: 121px 121px 121px 121px;
+  -webkit-border-radius: 121px 121px 121px 121px;
+  border: 2px solid #000000;
 }
-
-
-
+#section-1 .headline-1{
+  display: block;
+  padding-top: 11%;
+  text-align: center;
+  color: black;
+}
+#section-1 .headline-1 h1{
+}
+#section-1 .headline-1 h3{
+}
+#section-1 .headline-1 h3 span{
+  font-weight: bold;
+}
+#section-1 .section-1-image{
+  width: 100%;
+}
+#section-1 .section-1-image img{
+  width:100%;
+  height: 100%;
+  position: relative;
+  bottom:300px;
+}
 
 #section-2{
   height: 747px;
