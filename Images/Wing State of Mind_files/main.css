@@ -119,37 +119,12 @@ h1{
 #section-2 .grid-container{
   display: grid;
   height: 747px;
-  grid-template-columns: 50% 10% 10% 10% 10% 10%;
-  grid-template-rows: 1FR 1FR 1FR 1FR 1FR  ;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
 }
-#section-2 .grid-container :nth-child(-n+30) {
+#section-2 .grid-container :nth-child(-n+10) {
   border: black solid;
   text-align: center;
-}
-#section-2 .grid-container .grid-item-1{
-  background-color: #f47321;
-  grid-row-start: 1;
-  grid-row-end: 7;
-}
-#section-2 .grid-container .grid-item-2{
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-#section-2 .grid-container .grid-item-3{
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-#section-2 .grid-container .grid-item-5{
-  grid-column-start: 6;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-#section-2 .grid-container .grid-item-6{
-  grid-column-start: 6;
-  grid-row-start: 5;
-  grid-row-end: 8;
 }
 #section-3{
   display: inline-block;
