@@ -2,7 +2,9 @@
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
+font-family: serif;
 }
+
 /* TOP MENU */
 h1{
   margin:0;
@@ -110,7 +112,7 @@ h1{
   width: 100%;
   min-height: 909px;
   height: auto;
-  top: -350px;
+  top: -370px;
 }
 #section-2{
   height: 747px;
@@ -123,57 +125,144 @@ h1{
   grid-template-rows: 1FR 1FR 1FR 1FR 1FR  ;
 }
 #section-2 .grid-container :nth-child(-n+10) {
-  border: black solid;
   text-align: center;
 }
 #section-2 .grid-container .grid-item-1{
   background-color: #f47321;
   grid-row-start: 1;
   grid-row-end: 7;
+  align-content: center;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-1 p{
+  color: #4c4c4c;
+  font-family: 'Slabo 27px', serif;
+  padding: 0;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-2 h1{
+  color: white;
+  font-family: 'Sigmar One', serif;
+  font-weight: 200;
+  font-size: 3em;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-3 h3{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-4 a{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .grid-item-1-button a{
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1% 5%;
+  background: white;
+  color: #f47321;
+  border-radius: 147px 147px 147px 147px;
+  -moz-border-radius: 147px 147px 147px 147px;
+  -webkit-border-radius: 147px 147px 147px 147px;
+  border: 2px solid #f47321;
+  font-family: 'Abel', sans-serif;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .grid-item-1-button :hover a{
+  background: #f0640c;
+  color: #fff;
+  border: 2px solid #f47321;
+  cursor: pointer;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .image-container{
+  position: relative;
+  bottom:10%;
+  right:26%;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content img{
+  height: auto;
+  width: 150%;
 }
 #section-2 .grid-container .grid-item-2{
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-3{
   grid-row-start: 1;
   grid-row-end: 3;
+  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section-2 .grid-container .grid-item-4{
+grid-column-start: 6;
+grid-column-end: 6;
+grid-row-start: 5;
+grid-row-end: 10;
+background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image10.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-5{
   grid-column-start: 6;
   grid-row-start: 3;
   grid-row-end: 5;
+  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-6{
 grid-column-start: 2;
 grid-column-end: 4;
 grid-row-start: 3;
+background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-7{
 grid-column-start: 4;
 grid-column-end: 6;
 grid-row-start: 3;
 grid-row-end: 5;
+background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image5.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-8{
 grid-column-start: 2;
 grid-column-end: 4;
 grid-row-start: 4;
+background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image8.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 #section-2 .grid-container .grid-item-9{
 grid-column-start: 2;
 grid-column-end: 6;
 grid-row-start: 5;
 grid-row-end: 10;
+background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/gridimages/image9.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
-#section-2 .grid-container .grid-item-10{
-grid-column-start: 6;
-grid-column-end: 6;
-grid-row-start: 5;
-grid-row-end: 10;
-}
+
 
 #section-3{
   display: inline-block;
