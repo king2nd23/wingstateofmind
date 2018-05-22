@@ -154,7 +154,11 @@ h1{
   font-family: 'Abel', sans-serif;
   font-size: 1.5em;
 }
+<<<<<<< HEAD
 #section-2 .grid-container .grid-item-1 .grid-item-1-content .text-4 p{
+=======
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-4 P{
+>>>>>>> c5940d78934b8515d41fd6b6e72a8f0ef8b66bd6
   color: white;
   font-family: 'Abel', sans-serif;
   font-size: 1em;
