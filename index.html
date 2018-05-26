@@ -127,6 +127,10 @@
     </div>
   </div>
 
+  <div id="map">
+
+  </div>
+
   <div id="section-3">
     <div class="top-area">
       <div class="block-1">
@@ -221,19 +225,33 @@
   </div>
 
   <div id="section-5">
-
-
-  </div>
-
-  <div id="section-6">
-
   </div>
 
   <div class="footer">
 
   </div>
 
+<script type="text/javascript">
+  function initMap() {
+    // map options
+    var options = {
+      zoom:8,
+      center:{lat:35.782169,lng:-80.793457}
+    }
+    // new map
+    var map = new google.maps.Map(document.getElementById('map'), options);
+    // add Marker
+    var marker = new google.maps.Marker({
+      position:{lat:35.9132,lng:-79.0558},
+      map:map
+    });
+  }
+</script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBbNeVUJg3BVLIi7_lr7xGciYsh7MDNlc&callback=initMap"
+      async defer>
+  </script>
+
+
 
 </body>
-
 </html>

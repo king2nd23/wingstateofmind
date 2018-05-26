@@ -509,10 +509,11 @@ h1{
   height: 747px;
   background-color: #ECECEC;
 }
-#section-6{
+#map{
   height: 747px;
-  background-color: #FEFFF8;
+  width: 100%;
 }
+
 .footer{
   height: 100px;
 }
