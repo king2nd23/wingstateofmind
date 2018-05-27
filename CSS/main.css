@@ -233,286 +233,60 @@ h1{
 
 #section-3{
   width: 100%;
-  height: 997px;
-  background-image: linear-gradient(to left, #313131, #333436, #34373b, #343b40, #333f43);
+  height: 585px;
 }
-#section-3 .top-area{
-  width:75.5%;
-  text-align: center;
+#section-3 .div-1{
+  width: 50%;
+  height: 585px;
+  display: inline-block;
+  background-color: #FDFEFF;
+}
+#section-3 .div-1 .content{
+  width: 60%;
+  margin: 22% 0 0 12%;
+}
+#section-3 .div-1 .new{
+  width: 50px;
+  background-color: #D30606;
+  color: white;
+}
+#section-3 .div-1 .new h4{
+  padding: 20% 30% 20% 15%;
   margin: 0 auto;
-  padding-top: 3%;
-  border-bottom: dotted 5px;
-}
-#section-3.top-area,.block-1,.block-2,.block-3{
-  width:31.9%;
-  height:330px;
-  display: inline-block;
-  background-color: #1E1E1E;
-  margin: 1.8% 1% 3% 0;
-  padding: 0;
-  border-radius: 19px;
-  vertical-align: top;
-  box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
-}
-#section-3 .top-area .block-1 .header{
-  height: 50px;
-}
-#section-3 .top-area .block-1 .far{
-  display: inline-block;
-  position: relative;
-  top: -10px;
-  font-size: 40px;
-  color: #343b40;
-}
-#section-3 .top-area .block-1 h3{
-  width: 20%;
-  display: inline-block;
-  vertical-align: top;
   text-align: center;
-  padding: 0 50% 0 8%;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
-#section-3 .top-area .block-1 .image img{
-  display: block;
-  width: 100%;
-  height: 230px;
-  border: solid 3px;
+#section-3 .div-1 .header h1{
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
 }
-#section-3 .top-area .block-1 .footer{
-  display: block;
-  width: 100%
+#section-3 .div-1 .text p{
+  font-family: 'Barlow', sans-serif;
 }
-#section-3 .top-area .block-1 .footer .fas{
+#section-3 .div-1 .link a{
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  font-weight: 900;
+}
+#section-3 .div-1 .link p :hover{
+  color: red;
+}
+#section-3 .div-2{
+  width: 50%;
   display: inline-block;
-  color: #6c7377;
-}
-#section-3 .top-area .block-1 .footer p{
-  display: inline-block;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
-}
-#section-3 .top-area .block-2 .header{
-  height: 50px;
-}
-#section-3 .top-area .block-2 .far{
-  display: inline-block;
-  position: relative;
-  top: -10px;
-  font-size: 40px;
-  color: #343b40;
-}
-#section-3 .top-area .block-2 h3{
-  width: 20%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 0 50% 0 8%;
-  margin-top: 2%;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
-}
-#section-3 .top-area .block-2 .image img{
-  display: block;
-  width: 100%;
-  height: 230px;
-  border: solid 3px;
-}
-#section-3 .top-area .block-2 .footer{
-  display: block;
-  width: 100%
-}
-#section-3 .top-area .block-2 .footer .fas{
-  display: inline-block;
-  color: #6c7377;
-}
-#section-3 .top-area .block-2 .footer p{
-  display: inline-block;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
-}
-#section-3 .top-area .block-3 .header{
-  height: 50px;
-}
-#section-3 .top-area .block-3 .far{
-  display: inline-block;
-  position: relative;
-  top: -10px;
-  font-size: 40px;
-  color: #343b40;
-}
-#section-3 .top-area .block-3 h3{
-  width: 20%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 0 50% 0 8%;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
-  margin-top: 2%;
-}
-#section-3 .top-area .block-3 .image img{
-  display: block;
-  width: 100%;
-  height: 230px;
-  border: solid 3px;
-}
-#section-3 .top-area .block-3 .footer{
-  display: block;
-  width: 100%
-}
-#section-3 .top-area .block-3 .footer .fas{
-  display: inline-block;
-  color: #6c7377;
-}
-#section-3 .top-area .block-3 .footer p{
-  display: inline-block;
-  color: #6c7377;
-  font-family: 'Abel', sans-serif;
-}
-#section-3 .top-area .block-2{
-}
-#section-3 .top-area .block-3{
-}
-#section-3 .middle-area{
-  width: 76%;
-  border-bottom: dotted 5px;
-  margin: 0 auto;
-}
-#section-3 .middle-area .middle-area-block{
-  width: 100%;
-  height:200px;
-  margin: 3% auto 3% auto;
-  background-color: #1E1E1E;
-  border-radius: 19px;
-  box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
-}
-#section-3 .middle-area .middle-area-block .far{
-  display: block;
-  position: relative;
-  top: -10px;
-  left: 55px;
-  font-size: 40px;
-  color: #343b40;
-}
-#section-3 .middle-area .middle-area-block .text-container{
-  width: 70%;
-  display: inline-block;
-  margin-left: 10%;
-}
-#section-3 .middle-area .middle-area-block .text-container h2{
-  margin: 0;
-}
-#section-3 .middle-area .middle-area-block .button{
-  width: 15%;
-  display: inline-block;
+  background-color: #212121;
+  height: 585px;
   float: right;
-  background-color: #343b40;
-  text-align: center;
-  border-radius: 100px;
-}
-#section-3 .bottom-area{
-  display: flex;
-  flex-direction: row;
-  width: 76%;
-  height: 200px;
-  margin: 3% auto auto auto;
-  border-bottom: dotted 5px;
-}
-#section-3.bottom-area,.item-1,.item-2,.item-3,.item-4{
-  flex-grow: 1;
-  background-color: #1E1E1E;
-  margin-bottom: 3%;
-  border-radius: 19px;
-  box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
-}
-#section-3 .bottom-area .item-1{
-  margin-right: 2%;
-}
-#section-3 .bottom-area .item-2{
-  margin-right: 2%;
-}
-#section-3 .bottom-area .item-3{
-  margin-right: 2%;
-}
-#section-3 .bottom-area .item-4{
-
-}
-#section-4{
-  display: inline-block;
-  height: 920px;
-  width: 100%;
-  /* background-color: #D05A00; */
-}
-#section-4 .mild{
-  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/background3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: inline-block;
-  -webkit-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  width: 30%;
-  height: 850px;
-  margin-right:2.5%;
-  margin-left: 1.95%;
-  margin-top: 4%;
-  overflow: hidden;
-}
-#section-4 .mild h1{
-  font-family: 'Permanent Marker',cursive;
-  font-size: 4em;
-  text-align: center;
-}
-#section-4 .hot{
-  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/background3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: inline-block;
-  -webkit-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  width: 30%;
-  height: 850px;
-  margin-right:2.5%;
-  overflow: hidden;
-}
-#section-4 .hot h1{
-  font-family: 'Permanent Marker',cursive;
-  font-size: 4em;
-  text-align: center;
-}
-#section-4 .fire{
-  background-image: url("/Users/markking/Desktop/GitHub/wingstateofmind/Images/background3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: inline-block;
-  -webkit-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
-  width: 30%;
-  height: 850px;
-  overflow: hidden;
-}
-#section-4 .fire h1{
-  font-family: 'Permanent Marker',cursive;
-  font-size: 4em;
-  text-align: center;
-}
-#section-5{
-  height: 747px;
-  background-color: #ECECEC;
 }
 #map{
   height: 747px;
   width: 100%;
 }
+#section-5{
+  height: 747px;
+  background-color: #ECECEC;
+}
+
 
 .footer{
   height: 100px;
