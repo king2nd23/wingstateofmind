@@ -239,9 +239,12 @@ h1{
   width: 50%;
   height: 585px;
   display: inline-block;
+  position: relative;
   background-color: #FDFEFF;
 }
 #section-3 .div-1 .content{
+  position: relative;
+  z-index: 1;
   width: 60%;
   margin: 22% 0 0 12%;
 }
@@ -271,13 +274,118 @@ h1{
 #section-3 .div-1 .link p :hover{
   color: red;
 }
+#section-3 .div-1 .image{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  top: 80px;
+  left: 300px;
+}
+#section-3 .div-1 .image img{
+  width: 450px;
+  height: auto;
+  overflow: auto;
+}
 #section-3 .div-2{
   width: 50%;
   display: inline-block;
+  position: relative;
+  z-index: 1;
   background-color: #212121;
   height: 585px;
   float: right;
+  background-image: url(/Users/markking/Desktop/GitHub/wingstateofmind/Images/blackandwhiteflame3.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
+#section-3 .div-2 .content{
+  position: relative;
+  z-index: 1;
+  width: 60%;
+  color: white;
+  margin: auto;
+  padding-top: 20%;
+}
+#section-3 .div-2 .content .fire-image{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#section-3 .div-2 .content .fire-image img{
+  width: 10%;
+  height: auto;
+}
+/* #section-3 .div-2 .content .flame-background{
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+}
+#section-3 .div-2 .content .flame-background img{
+  width: 350px;
+  height: auto;
+} */
+#section-3 .div-2 .content .header h1{
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+#section-3 .div-2 .content .text p{
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+}
+#section-3 .div-2 .content .link{
+  margin-top: 8%;
+  text-align: center;
+}
+#section-3 .div-2 .content .link h3{
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+#section-3 .div-2 .content .link a{
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  padding: 2.5% 6%;
+  border: solid white .5px;
+}
+/* ////////SECTION 3 DIV 2 LINK HOVER///////// */
+#section-3 .div-2 .content .link h3 :HOVER{
+  /* background-color: white; */
+  color: red;
+  border-color: #D30606;
+  overflow: auto;
+  background: white;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-property: color;
+  transition-property: white;
+  -webkit-transition-duration: 1s;
+  transition-duration: 3s;
+
+}
+#section-3 .div-2 .content .link a :HOVER{
+  color: #D30606;
+  overflow: auto;
+  /* background: white;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+*/
+}
+
+
+
+
+
+
 #map{
   height: 747px;
   width: 100%;
