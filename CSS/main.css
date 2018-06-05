@@ -335,29 +335,28 @@ h1{
   font-family: 'Barlow', sans-serif;
 }
 #section-3 .div-2 .content .link{
-  margin-top: 8%;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-}
-#section-3 .div-2 .content .link h3{
-  font-family: 'Barlow', sans-serif;
-  margin: 0;
+  width: 60%;
 }
 #section-3 .div-2 .content .link a{
   text-decoration: none;
-  font-family: 'Barlow', sans-serif;
+}
+#section-3 .div-2 .content .link h3{
+  text-decoration: none;
   color: white;
   font-weight: 100;
   margin: 0;
-  padding: 2.5% 6%;
+  padding: 5% 6%;
   border: solid white .5px;
+  font-family: 'Barlow', sans-serif;
 }
 /* ////////SECTION 3 DIV 2 LINK HOVER///////// */
-#section-3 .div-2 .content .link h3 :HOVER{
-  /* background-color: white; */
-  color: red;
+#section-3 .div-2 .content .link a :HOVER{
+  color: #D30606;
   border-color: #D30606;
   overflow: auto;
-  background: white;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -365,27 +364,7 @@ h1{
   transition-property: white;
   -webkit-transition-duration: 1s;
   transition-duration: 3s;
-
 }
-#section-3 .div-2 .content .link a :HOVER{
-  color: #D30606;
-  overflow: auto;
-  /* background: white;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-*/
-}
-
-
-
-
-
-
 #map{
   height: 747px;
   width: 100%;
