@@ -24,6 +24,8 @@
   font-family: 'Barlow', sans-serif; -->
   <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
   <!-- font-family: 'Oswald', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+  <!-- font-family: 'Leckerli One', cursive; -->
 
 </head>
 <body>
@@ -177,11 +179,22 @@
 <!-- section for google maps -->
 
   <div id="section-5">
+    <div class ="top-section">
+    <div class="book-table">
+      <h1>Book a <br><span class="table">Table</span></h1>
+    </div>
+    <div class="hours-of-opp">
+      <p>Open 8AM to 11PM Monday-Saturday<br> 11AM to 6PM on Sundays</p>
+    </div>
+  </div>
+
+
+
     <div class="reservation">
       <form class="reservation-form" action="form-to-email.php" method="post">
         <!--Date--> <input type="date" name="date" value="06/18/2018" placeholder="2018/01/18">
-        <!--Time--> <input type="time" name="time" value="">
-        <!--How Many Guests--> <input type="text" name="guest" value="">
+        <!--Time--> <input type="time" name="time" value="" placeholder="">
+        <!--How Many Guests--> <input type="number" min="1" max="20" name="guest" value="" placeholder="Number of Guests">
         <input type="submit" name="reserve" value="Reserve My Table">
       </form>
     </div>
