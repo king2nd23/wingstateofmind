@@ -436,3 +436,36 @@ h1{
   font-weight: bold;
   cursor: pointer;
 }
+
+/* ////////////MEDIA QUERIES/////////// */
+@media (max-width: 700px) {
+  #section-1 .top-menu .logo{
+    width: 43%;
+  }
+  #section-1 .top-menu .logo .wings-tm h1{
+    height: auto;
+    padding: 0;
+    float: left;
+    font-size: 2em;
+  }
+  #section-1 .top-menu .logo .wings-tm img{
+    display: none;
+  }
+  #section-1 .top-menu .nav-menu-container .nav-menu{
+  padding: 0;
+  font-size: 12px;
+  }
+  #section-3 .div-1 .image {
+    left: 100px;
+    overflow: auto;
+}
+#section-3 .div-2 .content .text p {
+  margin: 0;
+}
+#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-2 h1{
+  font-size: 1.5em;
+}
+#section-5 .reservation .reservation-form input{
+  font-size: .7em;
+}
+}
