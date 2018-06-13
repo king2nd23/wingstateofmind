@@ -462,10 +462,70 @@ h1{
 #section-3 .div-2 .content .text p {
   margin: 0;
 }
-#section-2 .grid-container .grid-item-1 .grid-item-1-content .text-2 h1{
-  font-size: 1.5em;
+#section-2 /*.grid-container .grid-item-1 .grid-item-1-content .text-2 h1*/{
+  /* font-size: 1.5em; */
+  display: none;
 }
 #section-5 .reservation .reservation-form input{
   font-size: .7em;
 }
+/* ////////grid//////// */
+#mobile-grid-container{
+  display: grid;
+  height: 747px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1FR 1FR 1FR 1FR 1FR;
+}
+#mobile-grid-container .mobile-grid-item-2{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#mobile-grid-container .mobile-grid-item-3{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#mobile-grid-container .mobile-grid-item-4{
+  grid-column-start: ;
+  grid-column-end: ;
+  grid-row-start: ;
+  grid-row-end: ;
+}
+#mobile-grid-container .mobile-grid-item-5{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#mobile-grid-container .mobile-grid-item-6{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+#mobile-grid-container .mobile-grid-item-7{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#mobile-grid-container .mobile-grid-item-8{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+#mobile-grid-container .mobile-grid-item-9{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+
+
+
 }
