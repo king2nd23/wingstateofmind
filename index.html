@@ -26,7 +26,6 @@
   <!-- font-family: 'Oswald', sans-serif; -->
   <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
   <!-- font-family: 'Leckerli One', cursive; -->
-
 </head>
 <body>
 
@@ -39,19 +38,38 @@
       </div>
       <div class="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#" class="hvr-underline-from-center">ABOUT</a></li>
+          <li><a href="#" class="hvr-underline-from-center">HOME</a></li>
           <li><a href="#" class="hvr-underline-from-center">FEATURES</a></li>
           <li><a href="#" class="hvr-underline-from-center">NUTRITION</a></li>
           <li class="hvr-grow"><a href="#">BUY IT NOW</a></li>
         </ul>
       </div>
-    </div>
-    <!-- <div class="headline-1">
-      <h1>"Flavorful, Bold, and Oh So Delicious"</h1>
-      <h3>The key to happiness in in the <span>Sauce</span></h3>
-    </div> -->
-    <div class="section-1-image">
-        <!-- <img src="Images/chickenwing5.png" alt="pile of chicken wings"> -->
+      <!-- /////////drop down menu////////// -->
+      <label for="toggle-1" class="toggle-menu">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </label>
+      <input type="checkbox" id="toggle-1">
+
+      <nav class="nav-mobile">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">NUTRITION</a></li>
+          <li><a href="#">BUY IT NOW</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+
     </div>
   </div>
 
@@ -274,6 +292,17 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBbNeVUJg3BVLIi7_lr7xGciYsh7MDNlc&callback=initMap"
       async defer>
   </script>
+
+<!-- /////////////////////drop down menu////////////////// -->
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+<script type="text/javascript">
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+
 
 </body>
 </html>
