@@ -44,26 +44,81 @@
           <li class="hvr-grow"><a href="#">BUY IT NOW</a></li>
         </ul>
       </div>
-      <!-- /////////drop down menu////////// -->
-      <label for="toggle-1" class="toggle-menu">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </label>
-      <input type="checkbox" id="toggle-1">
 
-      <nav class="nav-mobile">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">FEATURES</a></li>
-          <li><a href="#">NUTRITION</a></li>
-          <li><a href="#">BUY IT NOW</a></li>
-        </ul>
+      <!-- <div class="grid-item-1.5">
+        <div class="grid-item-1.5-content">
+        <div class="text-1">
+          <p><small>Lorem ipsum dolor sit amet</small></p>
+        </div>
+        <div class="text-2">
+          <h1>consectetur adipiscing</h1>
+        </div>
+        <div class="text-3">
+          <h3>Sed ut perspiciatis unde omnis<br>
+             iste natus error sit voluptatem accusantium<br>
+             doloremque laudantium<br>
+           </h3>
+        </div>
+        <div class="text-4">
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+            dolore magnam aliquam quaerat.</p>
+        </div>
+        <div class="grid-item-1.5-button">
+          <p><a>consectetur adipiscing</a></p>
+        </div>
+        <div class="image-container">
+          <img src="Images/chickenwing4.png" alt="5 buffalo wings">
+        </div>
+      </div>
+      </div> -->
+
+
+
+
+
+
+      <!-- /////////drop down menu////////// -->
+      <nav class="navbar">
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="#000  " stroke-width="5"/>
+             </svg>
+          </a>
+          </span>
       </nav>
 
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Nutrition</a>
+        <a href="#">Buy It Now</a>
+      </div>
 
+      <!-- <div id="main">
+        <h1>Responsive Side Menu</h1>
+      </div> -->
+
+      <script>
+      function openSlideMenu(){
+      document.getElementById('side-menu').style.width
+      ='250px';
+      document.getElementById('main').style.marginLeft
+      ='250px';
+      }
+
+      function closeSlideMenu(){
+      document.getElementById('side-menu').style.width
+      ='0';
+      document.getElementById('main').style.marginLeft
+      ='0';
+      }
+      </script>
 
 
 
@@ -73,6 +128,39 @@
     </div>
   </div>
 
+<div id="section-1-5">
+    <div class="responsive-section2">
+    <div class="text-1">
+      <p><small>Lorem ipsum dolor sit amet</small></p>
+    </div>
+    <div class="text-2">
+      <h1>consectet adipiscing</h1>
+    </div>
+    <div class="text-3">
+      <h3>Sed ut perspiciatis unde omnis<br>
+         iste natus error sit voluptatem accusantium<br>
+         doloremque laudantium<br>
+       </h3>
+    </div>
+    <div class="text-4">
+      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+        dolore magnam aliquam quaerat.</p>
+    </div>
+    <div class="button">
+      <p><a>consectetur adipiscing</a></p>
+    </div>
+    <div class="image-container">
+      <img src="Images/chickenwing4.png" alt="5 buffalo wings">
+    </div>
+  </div>
+</div>
+
+
+
+
+
   <div id="section-2">
     <div class="grid-container">
       <div class="grid-item-1">
@@ -81,7 +169,7 @@
           <p><small>Lorem ipsum dolor sit amet</small></p>
         </div>
         <div class="text-2">
-          <h1>consectetur adipiscing</h1>
+          <h1>consectet adipiscing</h1>
         </div>
         <div class="text-3">
           <h3>Sed ut perspiciatis unde omnis<br>
@@ -292,17 +380,5 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBbNeVUJg3BVLIi7_lr7xGciYsh7MDNlc&callback=initMap"
       async defer>
   </script>
-
-<!-- /////////////////////drop down menu////////////////// -->
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-<script type="text/javascript">
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-
-
 </body>
 </html>

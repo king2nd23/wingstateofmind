@@ -15,20 +15,20 @@ h1{
   z-index: 1;
   width: 100%;
   height: 747px;
-  /* overflow: auto; */
   display: block;
-  /* background-color: #FEFFF8; */
-  background-image: url(/Users/markking/Desktop/GitHub/wingstateofmind/Images/background11transparent.jpg);
-  background-size:100% 100%;
+  background-image: url(/Users/markking/Desktop/GitHub/wingstateofmind/Images/background20.jpg);
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 #section-1 .top-menu{
+  height: 75px;
   width: 100%;
+  position: fixed;
   display: flex;
   text-align: center;
-  padding-top: 2.5%;
-  background:rgba(255,255,255, 0.09);
+  padding-top: 1.5%;
+  background:#fff;
 }
 #section-1 .top-menu .logo{
   width:36%;
@@ -104,88 +104,67 @@ h1{
   -webkit-border-radius: 121px 121px 121px 121px;
   border: 2px solid #000000;
 }
-
-
-
-
 /* //////////////menu for mobile////////// */
-.nav-mobile{
-  width:auto;
-  float:right;
+.navbar{
+  /* background-color: #3b5998; */
+  overflow: hidden;
+  height: 63px;
 }
-.nav-mobile ul{
-  display: table;
-  float:right;
-  position: relative;
-  top:-30px;
-  margin: 0
-}
-.nav-mobile ul li a{
+.navbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  cursor: pointer;
-  color: black;
-  font-family: 'Barlow', sans-serif;
-  display: inline-block;
-  transition: all .5s ease 0s;
+  font-size: 17px;
 }
-.nav-mobile ul li a:hover{
-  background-color: #FDFEFF
-  color:#f47321;
-  transition: all .5s ease 0s;
-}
-.nav-mobile ul li a:hover{
-  color:#f47321;
-  transition: all .5s ease 0s;
-}
-/* /////for icons///// */
-.nav-mobile ul li a i{
-  padding-right: 10px;
-  color: #f47321
-  transition: all .5s ease 0s;
-}
-.toggle-menu ul{
-  display: table;
-  width: 75px;
+.navbar ul{
+  margin: 8px 0 0 0;
   list-style: none;
-  position: relative;
-  top:-20px;
 }
-.toggle-menu ul li{
-  width: 100%
-  height: 3px;
-  /* background-color: rgba(255,255,255, 0.09); */
-  margin-bottom: 4px;
-  border-bottom: 3px solid;
+.navbar a:hover{
+  background-color: #ddd;
+  color: #000;
 }
-.toggle-menu ul li:last-child{
-  margin-bottom: 0px;
+.side-nav{
+  display: block;
+  height:100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
-input[type=checkbox], label{
-  display: none;
+.side-nav a{
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.side-nav a:hover{
+  color: #fff;
+}
+.side-nav .btn-close{
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36;
+  margin-left: 50px;
+}
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow: hidden;
+  width: 100%;
+}
 /* //////////////////////////////// */
 #section-1 .headline-1{
   display: block;
@@ -209,6 +188,85 @@ input[type=checkbox], label{
   height: auto;
   top: -370px;
 }
+/* ////////////section1.5////////////// */
+
+#section-1-5{
+  background-color: #f47321;
+  height: 720px;
+  overflow: auto;
+}
+#section-1-5 .responsive-section2{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#section-1-5 .responsive-section2 .text-1 p{
+  color: #4c4c4c;
+  font-family: 'Slabo 27px', serif;
+  padding: 0;
+}
+#section-1-5 .responsive-section2 .text-2 h1{
+  color: white;
+  font-family: 'Sigmar One', serif;
+  font-weight: 200;
+  font-size: 3em;
+}
+#section-1-5 .responsive-section2 .text-3 h3{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+}
+#section-1-5  .responsive-section2 .text-4 p{
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+}
+#section-1-5  .responsive-section2 .button a{
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1% 5%;
+  background: white;
+  color: #f47321;
+  border-radius: 147px 147px 147px 147px;
+  -moz-border-radius: 147px 147px 147px 147px;
+  -webkit-border-radius: 147px 147px 147px 147px;
+  border: 2px solid #f47321;
+  font-family: 'Abel', sans-serif;
+}
+#section-1-5  .responsive-section2 .button :hover a{
+  background: #f0640c;
+  color: #fff;
+  border: 2px solid #f47321;
+  cursor: pointer;
+}
+#section-1-5 .responsive-section2 .image-container{
+  position: relative;
+  bottom:10%;
+  right:26%;
+}
+#section-1-5  .responsive-section2 img{
+  height: auto;
+  width: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////section1.5////////////// */
 #section-2{
   height: 747px;
   background-color: beige;
@@ -329,6 +387,7 @@ input[type=checkbox], label{
 #section-3{
   width: 100%;
   height: 585px;
+  /* overflow: auto; */
 }
 #section-3 .div-1{
   width: 50%;
@@ -521,6 +580,35 @@ input[type=checkbox], label{
 }
 
 /* ////////////MEDIA QUERIES/////////// */
+@media (min-width:496px) {
+  .navbar{
+    display: none;
+  }
+  /* #section-1-5{
+    display: none;
+  } */
+}
+@media (max-width:496px) {
+  #section-1 .top-menu .nav-menu-container{
+    display: none;
+  }
+  #section-1 .top-menu .logo .wings-tm{
+    margin: 2% 0 0 2%;
+  }
+  #section-1 .top-menu{
+    background-color: rgba(0, 0, 0, .08);
+    width: 100%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-top: 2.5%;
+  }
+}
+@media (min-width:700px) {
+  #section-1-5{
+    display: none;
+  }
+}
 @media (max-width: 700px) {
   #section-1 .top-menu .logo{
     width: 43%;
@@ -530,6 +618,7 @@ input[type=checkbox], label{
     padding: 0;
     float: left;
     font-size: 2em;
+    margin: 0 0 5% 4%;
   }
   #section-1 .top-menu .logo .wings-tm img{
     display: none;
@@ -555,7 +644,7 @@ input[type=checkbox], label{
 /* ////////grid//////// */
 #mobile-grid-container{
   display: grid;
-  height: 747px;
+  height: 547px;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 1FR 1FR 1FR 1FR 1FR;
 }
