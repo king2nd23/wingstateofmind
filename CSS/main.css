@@ -568,13 +568,18 @@ h1{
   border-radius: 4px;
   font-family: 'Abel', sans-serif;
 }
-#section-5 .reservation .reservation-form input:nth-child(4)  {
+#section-5 .reservation .reservation-form input:nth-child(4){
   color: #2f2f2f;
   background-color: #f47321;
   font-weight: bold;
   cursor: pointer;
+  height: 45px;
+  position: relative;
+  bottom: 10px;
 }
-
+#section-5 .reservation .reservation-form input:nth-child(4):hover{
+  color: white;
+}
 /* ////////////MEDIA QUERIES/////////// */
 @media (min-width:496px) {
   .navbar{
@@ -586,6 +591,11 @@ h1{
   }
   #section-1 .mobile-icon-list{
     display: none;
+  }
+  #section-5 .reservation .reservation-form input{
+    height: 25px;
+  }
+  #section-5 .reservation .reservation-form input:nth-child(4) {
   }
 }
 @media (max-width:496px) {
