@@ -108,14 +108,14 @@ h1{
 .navbar{
   /* background-color: #3b5998; */
   overflow: hidden;
-  height: 63px;
+
 }
 .navbar a{
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -124,7 +124,7 @@ h1{
   list-style: none;
 }
 .navbar a:hover{
-  background-color: #ddd;
+  background-color: #f2f2f2;
   color: #000;
 }
 .side-nav{
@@ -196,7 +196,7 @@ h1{
   overflow: auto;
 }
 #section-1-5 .responsive-section2{
-  width: 60%;
+  width: %;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -584,34 +584,120 @@ h1{
   .navbar{
     display: none;
   }
-  /* #section-1-5{
-    display: none;
-  } */
+  #section-1 .top-menu .map-marker{
+    width: 0;
+    height: 0;
+  }
 }
 @media (max-width:496px) {
+  #section-1{
+    height: 450px;
+  }
+  #section-1 .top-menu{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 50px;
+    text-align: top;
+    padding-top: 3.5%;
+    position: fixed;
+  }
+  #section-1 .top-menu .logo{
+    display: none;
+  }
+  #section-1 .top-menu .mobile-logo{
+    display: inline-block;
+    position: relative;
+    top: -13px;
+    right: 10%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #section-1 .top-menu .mobile-logo img{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+  }
+  #section-1 .top-menu .navbar .open-slide svg{
+    position: relative;
+    top:-10px;
+    color:#fff;
+  }
   #section-1 .top-menu .nav-menu-container{
     display: none;
+  }
+  #section-1 .top-menu .navbar {
+    position: relative;
+    bottom: 15%;
+  }
+  #section-1 .top-menu .navbar a{
+
   }
   #section-1 .top-menu .logo .wings-tm{
     margin: 2% 0 0 2%;
   }
-  #section-1 .top-menu{
-    background-color: rgba(0, 0, 0, .08);
-    width: 100%;
-    position: relative;
-    display: flex;
-    text-align: center;
-    padding-top: 2.5%;
+
+#section-a .top-menu .mobile-icon-list{
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#section-1 ul{
+  display: inline-block;
+  list-style: none;
+  border-right: .3px solid;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+  font-weight: 100;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+#section-1 ul li a{
+  font-family: 'Abel', sans-serif;
+  color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+  #section-1-5 .responsive-section2{
+    width: 75%;
   }
 }
 @media (min-width:700px) {
   #section-1-5{
     display: none;
   }
+  #section-1 .top-menu .mobile-logo{
+    display: inline-block;
+    width: 0;
+    height: 0;
+  }
+  #section-1 .top-menu .map-marker{
+    width: 0;
+    height: 0;
+  }
 }
 @media (max-width: 700px) {
   #section-1 .top-menu .logo{
     width: 43%;
+  }
+  #section-1 .top-menu .mobile-logo{
+    display: inline-block;
+    width: 0;
+    height: 0;
   }
   #section-1 .top-menu .logo .wings-tm h1{
     height: auto;
