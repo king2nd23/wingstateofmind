@@ -446,12 +446,8 @@ h1{
   display: inline-block;
   position: relative;
   z-index: 1;
-  background-color: #212121;
   height: 585px;
   float: right;
-  background-image: url(/Users/markking/Desktop/GitHub/wingstateofmind/Images/blackandwhiteflame3.png);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 #section-3 .div-2 .content{
   position: relative;
@@ -588,6 +584,9 @@ h1{
     width: 0;
     height: 0;
   }
+  #section-1 .mobile-icon-list{
+    display: none;
+  }
 }
 @media (max-width:496px) {
   #section-1{
@@ -608,7 +607,7 @@ h1{
     display: inline-block;
     position: relative;
     top: -13px;
-    right: 10%;
+    right: 13%;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -663,15 +662,6 @@ h1{
   font-family: 'Abel', sans-serif;
   color: #f2f2f2;
 }
-
-
-
-
-
-
-
-
-
   #section-1-5 .responsive-section2{
     width: 75%;
   }
@@ -689,6 +679,7 @@ h1{
     width: 0;
     height: 0;
   }
+
 }
 @media (max-width: 700px) {
   #section-1 .top-menu .logo{
