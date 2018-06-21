@@ -714,6 +714,9 @@ h1{
   padding: 0;
   font-size: 12px;
   }
+  #section-2{
+    overflow-y: hidden;
+  }
   #section-3 .div-1 .image {
     left: 100px;
     overflow: auto;
