@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Wing State of Mind</title>
-  <!-- <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/main.css">
@@ -49,9 +48,6 @@
         </ul>
       </div>
       <!-- /////////drop down menu////////// -->
-
-
-
       <div class="mobile-icon-list">
         <ul class="map">
           <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
@@ -67,8 +63,6 @@
         </ul>
       </div>
 
-
-
       <div class="mobile-logo">
         <img src="Images/chickenwing1.png" alt="chicken wing logo">
       </div>
@@ -83,7 +77,6 @@
           </a>
           </span>
       </nav>
-
       <div id="side-menu" class="side-nav">
         <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
         <a href="#">Home</a>
@@ -91,32 +84,6 @@
         <a href="#">Nutrition</a>
         <a href="#">Buy It Now</a>
       </div>
-
-      <!-- <div id="main">
-        <h1>Responsive Side Menu</h1>
-      </div> -->
-
-      <script>
-      function openSlideMenu(){
-      document.getElementById('side-menu').style.width
-      ='250px';
-      document.getElementById('main').style.marginLeft
-      ='250px';
-      }
-
-      function closeSlideMenu(){
-      document.getElementById('side-menu').style.width
-      ='0';
-      document.getElementById('main').style.marginLeft
-      ='0';
-      }
-      </script>
-
-
-
-
-
-
     </div>
   </div>
 
@@ -148,10 +115,6 @@
     </div>
   </div>
 </div>
-
-
-
-
 
   <div id="section-2">
     <div class="grid-container">
@@ -281,7 +244,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;">
-
   </div>
 </div>
 
@@ -344,12 +306,25 @@
       </div>
     </div>
   </div>
+<!-- /////////////script for nav menu/////////////// -->
+<script>
+function openSlideMenu(){
+document.getElementById('side-menu').style.width
+='250px';
+document.getElementById('main').style.marginLeft
+='250px';
+}
 
+function closeSlideMenu(){
+document.getElementById('side-menu').style.width
+='0';
+document.getElementById('main').style.marginLeft
+='0';
+}
+</script>
 <!-- section for google maps -->
   <div id="map">
   </div>
-<!-- section for google maps -->
-
 <!-- ////////////google maps script////////// -->
 <script type="text/javascript">
   function initMap() {
